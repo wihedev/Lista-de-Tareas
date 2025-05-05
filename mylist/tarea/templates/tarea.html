@@ -26,7 +26,7 @@
     <form action="{% url "borrar_tarea" tarea.id %}" method='POST'> {% csrf_token %} <button type='submit'>Borrar</button></form>
     </div>
 {% empty %}
-    <p>No hay Tareas Pendientes.</p>
+    <p>No hay Tareas Pendiente.</p>
 
 {% endfor %}
 
