@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from .models import Tarea
 
-# Create your views here.
+
 
 def lista(request):
     tareas = Tarea.objects.all()
