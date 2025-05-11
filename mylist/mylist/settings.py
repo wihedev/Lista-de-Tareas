@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-1_k)w5rwqz42%d8k%k2k_p5sy@7i&178&k)ejab$)uok=(c-wn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['listadetareas.online']
 
 
 # Application definition
