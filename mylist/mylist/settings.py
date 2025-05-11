@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-1_k)w5rwqz42%d8k%k2k_p5sy@7i&178&k)ejab$)uok=(c-wn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['web-production-d585.up.railway.app']
+ALLOWED_HOSTS = ['web-production-d585.up.railway.app', '127.0.0.1']
 
 
 # Application definition
@@ -64,7 +64,7 @@ WSGI_APPLICATION = 'mylist.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tarea',
+        'NAME': 'Tarea',
         'USER': 'postgres',
         'PASSWORD': 'admin',
         'HOST': 'localhost',
